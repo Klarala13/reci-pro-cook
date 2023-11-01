@@ -2,24 +2,24 @@
     "recipies": [
       {
         "id": 1,
-        "title": "Tartar de salmón",
-        "description": "",
-        "ingredients": "",
-        "picture": ""
+        "title": "Tartar de salmón y aguacate",
+        "description": "El tartar de salmón ahumado y aguacate es una receta tan fácil y rápida de preparar como resultona. Se trata de una preparación habitualmente reservada como entrante o aperitivo de celebraciones u ocasiones especiales, pero... ¿por qué esperar a celebrar algo para poder disfrutarlo? Si eres de los que incluye habitualmente en la lista de la compra salmón ahumado y aguacates, cuando están de temporada, seguro que el resto de ingredientes forman parte de tu despensa. Anímate a preparar este tartar de salmón ahumado y aguacate como parte de la cena de un lunes, quien dice otro día, cualquiera.",
+        "ingredients": "1 pieza de salmón ahumado de unos 160 g, 1 aguacate grande, 2 cucharadas de aceite de oliva virgen extra, 2 cucharadas de salsa de soja, El zumo de medio limón, 1 cucharadita de mostaza, 1 pizca de pimienta negra recién molida, Cilantro seco, sésamo, cebollino… o las hierbas o especias que más nos gusten para decorar",
+        "picture": "https://www.pexels.com/es-es/foto/comida-plato-ensalada-sano-1307659/"
       },
       {
         "id": 2,
         "title": "Macarrones con chorizo",
-        "description": "",
-        "ingredients": "",
-        "picture": ""
+        "description": "Empezamos cociendo los macarrones en abundante agua salada siguiendo las indicaciones del paquete, procurando dejarla al dente. A mí me gusta mezclar la variedad lisa con la rallada, pero es algo totalmente opcional. Escurrir bien y reservar en una fuente o en una bandeja. Picar la cebolla, los dientes de ajo, el puerro, el pimiento y la guindilla sin semillas. Precalentar el horno a 200ºC. Calentar un poco de aceite en una sartén o cazuela y pochar un pco la cbeolla con los ajos. Agregar el resto de vegetales y cocinar a fuego medio hasta que cojan color. Incorporar el tomate seco picado, el tomate en conserva escurrido, el laurel y un poco de sal y azúcar. Remover bien y cocinar a fuego medio unos 10 minutos. Añadir un chorrito de vino, dejar que evapore el alcohol y echar orégano. Cocer 10-15 minutos más.",
+        "ingredients": "500 g de macarrones, 1 chorizo en sarta picante o dulce, 1 cebolla, 2 dientes de ajo, 500 g de tomate frito casero, Aceite de oliva, Sal y pimienta al gusto",
+        "picture": "https://www.pexels.com/es-es/foto/comida-pasta-tallarines-bol-14930759/"
       },
       {
         "id": 3,
-        "title": "Quishe",
-        "description": "",
-        "ingredients": "",
-        "picture": ""
+        "title": "Tarta de queso",
+        "description": "Elegimos el molde que más os guste, en este caso me he decidido por un molde desmoldable redondo de 20 cm por 20 cm. Lo engrasamos con la mantequilla y ponemos papel para vegetal o para hornear tal como veis en las fotos y el vídeo. El hecho de forrarlo con papel nos permitirá desmoldar la tarta sin ningún problema. Reservamos. Precalentamos el horno a 200º C, calor arriba y abajo. En un bol añadimos todos los ingredientes, el queso crema, la nata, los dos huevos, el azúcar y, por último la harina. Es necesario que el queso crema esté a temperatura ambiente para poder trabajarlo. Ya que si lo añadimos directamente del frigo, estará demasiado duro para poder integrarlo con el resto de ingredientes.",
+        "ingredients": "350 g. de vuestro queso crema preferido, 2 huevos XL, 175 g. nata 35% M.G. (crema de leche o nata para batir), 100 g. azúcar, 40 g. harina de trigo de todo uso",
+        "picture": "https://www.pexels.com/es-es/foto/rebanada-de-pastel-en-un-plato-junto-a-un-tenedor-162688/"
       }
     ],
     "profile": {
