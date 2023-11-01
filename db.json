@@ -1,0 +1,33 @@
+{
+    "recipies": [
+      {
+        "id": 1,
+        "title": "Tartar de salmón",
+        "description": "",
+        "ingredients": "",
+        "picture": ""
+      },
+      {
+        "id": 2,
+        "title": "Macarrones con chorizo",
+        "description": "",
+        "ingredients": "",
+        "picture": ""
+      },
+      {
+        "id": 3,
+        "title": "Quishe",
+        "description": "",
+        "ingredients": "",
+        "picture": ""
+      }
+    ],
+    "profile": {
+      "name": "Sandra Atenea",
+      "email": "Sat@mail.com",
+      "recipies": {
+        "Marcarrones": "Macarrones con tomate",
+        "Lasaña": "Lasaña de berengenas"
+      }
+    }
+  }
