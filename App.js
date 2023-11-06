@@ -1,20 +1,26 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, SafeAreaView } from 'react-native';
+import Recipies from "./src/screens/Recipies"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Holi! Aquí tienes unas recetas:</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.container}>
+        <StatusBar />
+        <Text style={styles.title}>Holi! Aquí tienes unas recetas:</Text>
+        <Recipies/>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#f1f1f1',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: 1,
   },
+  title: {
+    fontSize: 22,
+    textAlign: "center",
+    marginBottom: 24,
+    color: "#7925C7"
+  }
 });

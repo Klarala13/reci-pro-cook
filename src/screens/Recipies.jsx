@@ -1,22 +1,27 @@
-import { useState } from "react";
-import { FlatList, Link } from "react-native"
+import { useState, useEffect } from "react";
+import { FlatList, View, Text } from "react-native"
+import axios from "axios";
 
 const Recipies = () => {
-    const [recipies, setRecipies] = useState();
+  const [items, setItems] = useState([]);
 
-    const getRecipies = async () => {
-        const config = {
-          method: "get",
-          url: "http://localhost:3000/recipies/",
-          headers: {
-            "content-type": "text/json",
-          },
-        };
-        const res = await axios(config);
-        console.log("response", res.data);
+  useEffect(()=>{
+    const fetchData = () => {
+      axios.get('http://localhost:3000/recipies')
+      .then(({ data })=> {
+        setItems(data)
+      })
+      .catch(error=> console.log(error))
     }
+    
+    fetchData()
+}, [])
 
-    getRecipies()
+  return (
+    <View>
+      <FlatList data={items} keyExtractor={(item) => item.id} renderItem = {({item}) => (<Text>{item.title}</Text>)}/>
+    </View>
+  )
 }
 
-export default Recipies
+export default Recipies;
